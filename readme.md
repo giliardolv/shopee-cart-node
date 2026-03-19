@@ -24,7 +24,7 @@ shopee-cart-node/
 ├── package.json
 └── src/
     ├── index.js
-    └── services
+    └── services/
         ├── cart.js       # Regras de negócio do carrinho
         └── item.js       # Criação dos itens
 ```
