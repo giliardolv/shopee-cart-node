@@ -19,12 +19,14 @@ Um projeto simples de simulação de carrinho de compras desenvolvido em JavaScr
 ## 📁 Estrutura do Projeto
 
 ```
-project/
+shopee-cart-node/
 │
-├── index.js          # Fluxo principal da aplicação
-├── services/
-│   ├── cart.js       # Regras de negócio do carrinho
-│   └── item.js       # Criação dos itens
+├── package.json
+└── src/
+    ├── index.js
+    └── services
+        ├── cart.js       # Regras de negócio do carrinho
+        └── item.js       # Criação dos itens
 ```
 
 ---
